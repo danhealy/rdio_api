@@ -58,7 +58,30 @@ module RdioApi
       :getNewReleases,
       :getTopCharts,
       :getUserPlaylists,
-      :getPlaybackToken]
+      :getPlaybackToken,
+      :getAlbumsByUPC,
+      :getAlbumsForLabel,
+      :getArtistsForLabel,
+      :getArtistsFromFavoriteTracks,
+      :getArtistsFromSyncedTracks,
+      :getFavorites,
+      :getFavoritesByArtist,
+      :getFavoritesTypes,
+      :getKeysInFavorites,
+      :getKeysInFavoritesAndSynced,
+      :getKeysInSynced,
+      :getSynced,
+      :getSyncedByArtist,
+      :getSyncedTypes,
+      :banArtist,
+      :generateStation,
+      :getFriendAndTastemakerStations,
+      :getGenreStations,
+      :getRecentStationsHistoryForUser,
+      :getStations,
+      :stationsSearchSuggestions,
+      :steerStation,
+      :unbanArtist]
 
     AUTHENTICATED = [
       :addToCollection,
@@ -75,6 +98,17 @@ module RdioApi
       :setPlaylistOrder,
       :addFriend,
       :currentUser,
-      :removeFriend]
+      :removeFriend,
+      :getOfflineTracks,
+      :addToFavorites,
+      :addToSynced,
+      :removeFromFavorites,
+      :removeFromSynced,
+      :approveFollower,
+      :hideFollower,
+      :unapproveFollower,
+      :userHiddenFollowers,
+      :userPendingFollowers,
+      :voteForTrackOnStation]
   end
 end
